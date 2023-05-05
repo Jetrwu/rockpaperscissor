@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+}
+
+.paper-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rock-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scissor-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paper-img {
+    width: 400px;
+    height: auto;
+}
+
+.rock-img {
+    width: 400px;
+    height: auto;
+}
+
+.scissor-img {
+    width: 400px;
+    height: auto;
+}
+
+.paper-btn {
+  position: relative;
+  background-color: #585958;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.rock-btn {
+    position: relative;
+    background-color: #585958;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.scissor-btn {
+    position: relative;
+    background-color: #585958;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
